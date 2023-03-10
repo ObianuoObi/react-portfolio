@@ -1,4 +1,4 @@
-function About (props) {
+function Main (props) {
     return (
 <main>
   <h1 className="main-header">{props.title}</h1>
@@ -8,4 +8,4 @@ function About (props) {
     )
 }
 
-export default About;
+export default Main;

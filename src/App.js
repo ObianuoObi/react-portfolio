@@ -1,15 +1,20 @@
 import Header from './components/Header';
-import About from './components/About';
+import Main from './components/Main';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+
 
 function App() {
-  const title = "Welcome to my profile";
-  return (
-    <>
-      <Header />
-      <About title={title} />
-    </>
+    const title = "Welcome to my profile";
 
-  )
+    return <>
+    <Header />
+    
+    <Home title= {title} />
+
+    </>
 }
 
 export default App;
+  
+  
