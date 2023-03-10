@@ -1,15 +1,11 @@
+import Header from './components/Header';
 
 function App() {
   return <>
 
-<header>
-  <h3>LOGO</h3>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+  <Header/>
+
+
 
 <main>
   <h1>Welcome to my Portfolio</h1>
