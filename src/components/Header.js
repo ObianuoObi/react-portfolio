@@ -4,8 +4,7 @@ function Header () {
   <h3>LOGO</h3>
   <nav>
     <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <a href="#">About</a>
   </nav>
 </header>
     )

@@ -1,15 +1,12 @@
 import Header from './components/Header';
-import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   const title = "Welcome to my profile";
   return (
-
     <>
-
       <Header />
-      <Home title={title}/>
-
+      <About title={title} />
     </>
 
   )
