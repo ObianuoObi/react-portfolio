@@ -1,11 +1,13 @@
+import { NavLink } from "react-router-dom";
+
 function Header () {
     return (
         <header>
   <h3>LOGO</h3>
   <nav>
-    <a href="#">Home</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <NavLink href="#">Home</NavLink>
+    <Navlink href="#">Projects</Navlink>
+    <Navlink href="#">Contact</Navlink>
   </nav>
 </header>
     )
