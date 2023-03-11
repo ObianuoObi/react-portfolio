@@ -9,8 +9,9 @@ function App() {
 
     return <>
     <Header />
-    
-    <Home title= {title} />
+   
+    <Home  title={title}/>
+    <Contact />
 
     </>
 }
