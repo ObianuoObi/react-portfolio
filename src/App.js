@@ -8,7 +8,6 @@ import Projects from './pages/Projects';
 
 
 function App() {
-    const title = "Welcome to my profile";
     
 
     return <>
@@ -16,7 +15,7 @@ function App() {
     <Header />
 
     <Routes>
-        <Route path= "/" element = {<Home title={title}/>} />
+        <Route path= "/" element = {<Home/>} />
         <Route path= "/contact" element = {<Contact/>} />
         <Route path= "/projects" element = {<Projects/>} />
     </Routes>
